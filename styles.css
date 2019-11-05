@@ -1,0 +1,264 @@
+body {
+  background: white;
+  margin: 0;
+  font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+}
+
+.main {
+  width: 93%;
+  display: block;
+  margin: 0 auto;
+  display: flex;
+}
+
+.coluna {
+  height: 500px;
+  width: 28%;
+}
+
+.coluna-mid {
+  border: 1px solid #e6ecf0;
+  border-top: none;
+  border-bottom: none;
+  width: 44%;
+}
+
+.coluna-pad {
+  padding: 8px 0px 0px 25px;
+  box-sizing: border-box;
+}
+
+.menu li{
+  font-size: 19px;
+  list-style: none;
+  padding: 10px;
+}
+
+.menu li .menu-icone {
+  position: right;
+  top: 7px;
+  margin-right: 16px;
+}
+
+.redondo {
+  border-radius: 50%;
+}
+
+.bt {
+  background: rgb(29, 161, 242);
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 70px;
+  color: white;
+}
+
+.bt.bt-redondo {
+  border-radius: 26px;
+}
+
+.bt.bt-pequeno {
+  padding: 12px 20px;
+}
+
+.tweet {
+  padding: 12px;
+  height: 100px;
+  border-bottom: 10px solid #e6ecf0;
+}
+
+.tweet .foto-perfil {
+  float: left;
+  margin-right: 16px;
+}
+
+.escrever-tweet {
+  border: none;
+  background: transparent;
+  font-size: 19px;
+  padding: 13px 0;
+}
+
+.botao {
+  text-align: right;
+}
+
+.botao .add,
+.botao .bt,
+.botao .linha,
+.circulo-pequeno,
+.tweet .tweet__options {
+  float: right;
+  margin: 6px;
+}
+
+.tweet .add {
+  border: 1px solid rgb(29, 161, 242);
+  padding: 3px;
+  position: relative;
+  top: 2px;
+  text-align: center;
+}
+
+.tweet .add img {
+  position: relative;
+  left: 1px;
+}
+
+.linha {
+  width: 1px;
+  height: 30px;
+  background: rgb(170, 184, 194);
+  display: inline-block;
+}
+
+.botao .linha {
+  position: relative;
+  top: 4px;
+}
+
+.circulo-pequeno {
+  border: 2px solid rgb(170, 184, 194);
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 10px;
+}
+
+.tweet .tweet__options {
+  float: left;
+  position: relative;
+  top: 8px;
+  margin-left: 0;
+}
+
+.tweet .tweet__options img {
+  margin-right: 6px;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-group img {
+  position: absolute;
+  top: 9px;
+  left: 13px;
+}
+
+
+.grey-list {
+  width: 100%;
+  background: #e6ecf0;
+  border-radius: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grey-list .grey-list__item,
+.grey-list .grey-list__title {
+  list-style: none;
+  padding: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.grey-list .grey-list__item .grey-list__item__title {
+  font-weight: bold;
+}
+
+.grey-list .grey-list__item .grey-list__item__description {
+  margin: 5px 0;
+  color: rgb(101, 119, 134);
+}
+
+.grey-list .grey-list__item .grey-list__item__subtag {
+  margin: 12px 0 0 0;
+  font-size: 14px;
+  color: rgb(101, 119, 134);
+}
+
+.grey-list .grey-list__item a {
+  color: rgb(29, 161, 242);
+  text-decoration: none;
+}
+
+.grey-list .grey-list__item:last-child {
+  border: none;
+  font-size: 18px;
+}
+
+.grey-list .grey-list__title {
+  list-style: none;
+  font-size: 19px;
+}
+
+.grey-list .grey-list__title .grey-list__title__icon {
+  float: right;
+}
+
+.search-box {
+  border-radius: 45px;
+  background: #e6ecf0;
+  border: none;
+  font-size: 16px;
+  padding: 10px 10px 10px 45px;
+  width: 100%;
+}
+
+.sparks-right{
+  direction: rtl;
+  margin: 0px 0px 0px 30px;
+  padding: 0px 15px;
+  float: right;
+}
+
+.top-left{
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  padding: 5px 30px 0px 0px;
+}
+
+.tweetado{
+  padding: 12px;
+  height: 200px;
+  border-bottom: 1px solid #e6ecf0;
+}
+
+.img-usuario{
+  float: left;
+  width: 49px;
+  margin-right: 30px;
+}
+
+.usuario{
+  align-self: baseline;
+  float: initial;
+  text-align: left;
+}
+
+.arrouba{
+  color:#657786;
+  font-size: 14px
+}
+
+.ponto {
+  width: 2px;
+  height: 2px;
+  background: rgb(170, 184, 194);
+  display:inline-block;
+  margin: 2px;
+}
+
+.texto-tweet{
+  margin-top: 15px;
+  margin-left: 80px;
+  text-align: left;
+  float: initial;
+  margin-bottom: 70px;
+}
+
+.tweet-op{
+  margin-top: 30px;
+  border-radius: 360px;
+}
